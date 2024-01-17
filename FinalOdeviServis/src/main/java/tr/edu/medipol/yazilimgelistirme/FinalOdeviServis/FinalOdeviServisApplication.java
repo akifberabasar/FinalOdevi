@@ -1,6 +1,8 @@
 package tr.edu.medipol.yazilimgelistirme.FinalOdeviServis;
 
 import org.springframework.boot.SpringApplication;
+
+// Server oluşturucu class
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
