@@ -2,6 +2,7 @@ package tr.edu.medipol.yazilimgelistirme.FinalOdeviServis;
 
 public class Urun {
 	
+	// Ürün sınıfı oluşturuldu.
     private String ad;
     private double fiyat;
     private String barkodNo;
@@ -15,6 +16,8 @@ public class Urun {
         this.fiyat = fiyat;
         this.barkodNo = barkodNo;
     }
+    
+    // getter vee setter metodları yazıldı.
 
     public String getAd() {
         return ad;

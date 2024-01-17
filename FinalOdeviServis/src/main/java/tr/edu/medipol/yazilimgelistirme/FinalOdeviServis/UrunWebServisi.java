@@ -9,7 +9,7 @@ import java.util.List;
 @RequestMapping("/urun")
 public class UrunWebServisi {
 	
-
+    // Ürün nesnesi oluşturuldu.
     public record Urun(String ad, double fiyat,String barkodNo, int adet) {};
 
     private static final List<Urun> URUN_LISTESI = new ArrayList<>();
